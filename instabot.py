@@ -8,8 +8,8 @@ from instabot import Bot
 my_bot = Bot()
 
 #accounts
-usernames = ["greenpolytubes", "neelkamalsteels"]
-passwords = ["greenpolytube@2022", "kamalneel2022"]
+usernames = ["username1"]   #add usernames
+passwords = ["password"]  #add passwords
 accounts = dict(zip(usernames, passwords))
 
 for username, password in accounts.items():
